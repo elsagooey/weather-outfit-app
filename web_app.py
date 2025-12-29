@@ -6,11 +6,10 @@ from dotenv import load_dotenv
 load_dotenv()
 API_KEY = st.secrets.get("OPENWEATHER_API_KEY") or os.getenv("OPENWEATHER_API_KEY")
 
-# 1. Page Config
+
 st.set_page_config(page_title="Weather Outfit Pro", page_icon="🌤️", layout="centered")
 
-# 2. Custom CSS - Paste this right here!
-# This adds rounded corners, better fonts, and a subtle background glow
+
 st.markdown("""
     <style>
     .stApp {
@@ -46,7 +45,6 @@ if city:
         condition = data['weather'][0]['main']
         humidity = data['main']['humidity']
 
-        # 5. Visual "Card" for Results
         with st.container(border=True):
             st.subheader(f"Current Weather in {city}")
             
@@ -57,7 +55,7 @@ if city:
 
             st.divider()
 
-            # 6. Smarter Recommendation logic
+
             if temp < 50:
                 st.info("🧥 **Outfit Suggestion:** It's cold! Wear a heavy coat and scarf.")
             elif temp < 70:
