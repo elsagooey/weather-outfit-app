@@ -1,7 +1,19 @@
-# weather-outfit-app
+# Weather Outfit Planner
 
-Input city and you will get outfit advice. 
-Want to try it out? (Link: https://weather-outfit-app.streamlit.app/)
+A full-stack Python web application that provides real-time weather data and personalized outfit recommendations based on current local conditions.
 
-- **Error 401:** If you see a 401 error, it means the API key is either invalid or still propagating. OpenWeather keys can take up to 2 hours to activate.
-- **Error 404:** This means the city name was not recognized by the service.
+🔗 **[Want to try it out? Live Demo: ](https://weather-outfit-app.streamlit.app/)**
+
+---
+
+## Features
+* **Real-time Data:** Fetches live weather from the OpenWeather API
+* **Smart Logic:** Suggests clothing based on temperature, rain, and wind speed
+* **Web Interface:** Built with Streamlit for a clean, responsive user experience
+* **Security:** Implements environment variables (`.env`) to protect API credentials
+
+## Tech Stack
+* **Language:** Python 3.12
+* **Frontend:** Streamlit
+* **API:** OpenWeatherMap API
+* **Deployment:** Streamlit Community Cloud
