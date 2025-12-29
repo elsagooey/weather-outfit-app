@@ -2,7 +2,7 @@
 
 A full-stack Python web application that provides real-time weather data and personalized outfit recommendations based on current local conditions.
 
-🔗 **[Want to try it out? Live Demo: ](https://weather-outfit-app.streamlit.app/)**
+🔗 **[Want to try it out?](https://weather-outfit-app.streamlit.app/)**
 
 ---
 
