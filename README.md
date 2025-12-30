@@ -13,7 +13,7 @@ A full-stack Python web application that provides real-time weather data and per
 * **Security:** Implements environment variables (`.env`) to protect API credentials
 
 ## Tech Stack
-* **Language:** Python 3.12
+* **Language:** Python
 * **Frontend:** Streamlit
 * **API:** OpenWeatherMap API
 * **Deployment:** Streamlit Community Cloud
